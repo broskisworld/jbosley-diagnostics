@@ -425,3 +425,7 @@ function addStylesheet(href) {
 	// Append link element to HTML head
 	head.appendChild(link);
 }
+
+export function clear(screen = document.querySelector(".terminal")) {
+	screen.innerHTML = "";
+}

@@ -1,7 +1,8 @@
-import { parse, type, prompt, input } from "../util/io.js";
+import { parse, type, prompt, input, clear } from "../util/io.js";
 import pause from "../util/pause.js";
 import alert from "../util/alert.js";
 import say from "../util/speak.js";
+import { stats } from "./stats.js"
 
 const USER = "admin";
 const PW = "admin";
@@ -18,7 +19,7 @@ export async function boot() {
 	});
 
 	await pause();
-	return login();
+	return stats();
 }
 
 /** Login screen */
@@ -143,8 +144,4 @@ export function el(
  */
 export function div(...args) {
 	return el("div", ...args);
-}
-
-export function clear(screen = document.querySelector(".terminal")) {
-	screen.innerHTML = "";
 }
