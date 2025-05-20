@@ -2,6 +2,7 @@
 import { type } from "./util/io.js";
 import { toggleFullscreen } from "./util/screens.js";
 import { registerHandlers } from "./util/ui.mjs";
+import { on } from "./util/power.js";
 
 async function onLoad() {
 	// Check for query parameters in the URL, e.g. ?command=help&fullscreen=1
@@ -11,7 +12,7 @@ async function onLoad() {
 	const fullscreen = urlParams.get("fullscreen");
 
 	// Set up click event handlers for UI buttons
-	registerHandlers();
+	on();
 
 	if(fullscreen) {
 		toggleFullscreen(true);

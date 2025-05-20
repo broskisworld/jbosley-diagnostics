@@ -3,15 +3,6 @@ import { click } from "../sound/index.js";
 import { setVolume } from "./speak.js";
 import { toggleFullscreen } from "./screens.js";
 
-function togglePower() {
-	let isOff = document.getElementById("monitor").classList.contains("off");
-	if (isOff) {
-		on();
-	} else {
-		off();
-	}
-}
-
 function fly(event) {
 	event.target.classList.toggle("fly");
 }
@@ -58,19 +49,4 @@ function globalListener({ keyCode }) {
 
 export function registerHandlers() {
 	document.addEventListener("keydown", globalListener);
-
-	// Theme
-	document.getElementById('theme-red').addEventListener('click', (e) => theme(e, 'red'));
-	document.getElementById('theme-green').addEventListener('click', (e) => theme(e, 'green'));
-	document.getElementById('theme-blue').addEventListener('click', (e) => theme(e, 'blue'));
-
-	// Power
-	document.getElementById('switch').addEventListener('click', togglePower);
-	document.getElementById('slider').addEventListener('click', togglePower);
-
-	// Other UI
-	document.getElementById('fullscreen').addEventListener('click', fullscreen);
-	document.getElementById('crt').addEventListener('click', handleClick);
-	document.getElementById('sticky').addEventListener('click', fly);
-	document.getElementById("dial").addEventListener("input", handleVolume);
 }

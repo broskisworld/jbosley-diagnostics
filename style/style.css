@@ -148,12 +148,11 @@ a {
 
 #monitor {
 	margin: 3vmin auto;
-	padding: 5.5vmin;
 	width: min-content;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: #3f3933;
+	background: black;
 	border-radius: 0.5rem;
 }
 #monitor:not(.off) {
