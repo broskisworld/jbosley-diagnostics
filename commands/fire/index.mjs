@@ -1,5 +1,5 @@
 /** Credits: http://maettig.com/code/javascript/asciifire.html */
-import { el, clear } from "../../util/screens.js";
+import { el, clear } from "../../screens/default.js";
 import { waitForKey } from "../../util/io.js";
 
 async function fire() {

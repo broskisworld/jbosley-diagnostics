@@ -1,3 +1,3 @@
-import { clear } from '../../util/screens.js';
+import { clear } from '../../screens/default.js';
 
 export default clear;

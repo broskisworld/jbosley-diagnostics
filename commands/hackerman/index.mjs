@@ -1,5 +1,5 @@
 import { type, scroll } from "../../util/io.js";
-import { div, clear } from "../../util/screens.js";
+import { div, clear } from "../../screens/default.js";
 import alert from "../../util/alert.js";
 import { typeSound } from "../../sound/index.js";
 import say from "../../util/speak.js";

@@ -1,7 +1,7 @@
-import { parse, type, prompt, input } from "./io.js";
-import pause from "./pause.js";
-import alert from "./alert.js";
-import say from "./speak.js";
+import { parse, type, prompt, input } from "../util/io.js";
+import pause from "../util/pause.js";
+import alert from "../util/alert.js";
+import say from "../util/speak.js";
 
 const USER = "admin";
 const PW = "admin";
@@ -10,29 +10,7 @@ const PW = "admin";
 export async function boot() {
 	clear();
 
-	// await type("Welcome to ECMA industries(TM) terminal", {
-	// 	initialWait: 3000
-	// });
-
-	// await type(["> SET TERMINAL/BOOT", "Loading........................"], {
-	// 	lineWait: 1000
-	// });
-	// await type(
-	// 	[
-	// 		".....",
-	// 		"Please wait........",
-	// 		"..........",
-	// 		"...",
-	// 		".",
-	// 		".",
-	// 		".",
-	// 		".",
-	// 		"."
-	// 	],
-	// 	{ lineWait: 250 }
-	// );
-
-	await type(["LOADING.", " "]);
+	await type(["LOADING..", " "]);
 
 	await type(["> SYSTEM DIAGNOSTICS"], {
 		lineWait: 1000,

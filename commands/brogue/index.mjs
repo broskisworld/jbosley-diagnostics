@@ -1,5 +1,5 @@
 
-import { getScreen, showTemplateScreen, addTemplate, clear } from "../../util/screens.js";
+import { getScreen, showTemplateScreen, addTemplate, clear } from "../../screens/default.js";
 import { type, waitForKey } from "../../util/io.js";
 import say from "../../util/speak.js";
 import alert from "../../util/alert.js";

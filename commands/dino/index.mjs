@@ -1,5 +1,5 @@
 import alert from "../../util/alert.js";
-import { getScreen, clear, div, el } from "../../util/screens.js";
+import { getScreen, clear, div, el } from "../../screens/default.js";
 import Game from './game.mjs';
 
 function dino() {

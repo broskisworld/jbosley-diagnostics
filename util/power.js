@@ -1,5 +1,5 @@
 import { click } from "../sound/index.js";
-import { boot } from "./screens.js";
+import { boot } from "../screens/default.js";
 import { stopSpeaking } from "./speak.js";
 import pause from "./pause.js";
 

@@ -1,4 +1,4 @@
-import { clear, el } from "util/screens.js";
+import { clear, el } from "screens/default.js";
 import { moveCaretToEnd } from "util/io.js";
 import { typeSound } from "sound";
 import debounce from 'util/debounce.js';

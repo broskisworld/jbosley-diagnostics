@@ -1,7 +1,7 @@
 import { on, off } from "./power.js";
 import { click } from "../sound/index.js";
 import { setVolume } from "./speak.js";
-import { toggleFullscreen } from "./screens.js";
+import { toggleFullscreen } from "../screens/default.js";
 
 function fly(event) {
 	event.target.classList.toggle("fly");

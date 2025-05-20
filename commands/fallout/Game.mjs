@@ -1,4 +1,4 @@
-import { addTemplate, el, getScreen } from "../../util/screens.js";
+import { addTemplate, el, getScreen } from "../../screens/default.js";
 import { type } from "../../util/io.js";
 import { typeSound } from "../../sound/index.js";
 import { rnd, generateText, nextHex } from './util.mjs';

@@ -1,7 +1,7 @@
 // Inspiration:
 // - https://youtu.be/jDJHtLCHuAg
 // - http://aramor.epizy.com/fallout-terminal/password?diff=1
-import { getScreen, clear } from "../../util/screens.js";
+import { getScreen, clear } from "../../screens/default.js";
 import { type } from "../../util/io.js";
 import Game from './Game.mjs';
 import pause from "../../util/pause.js";

@@ -1,4 +1,4 @@
-import { getScreen, clear } from "../../util/screens.js";
+import { getScreen, clear } from "../../screens/default.js";
 
 const output = "There is no spoon.";
 async function matrix() {

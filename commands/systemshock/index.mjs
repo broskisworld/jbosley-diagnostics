@@ -2,7 +2,7 @@
 
 // =============== WORK IN PROGRESS =======================
 
-import { getScreen, addTemplate, el, div, clear } from "../../util/screens.js";
+import { getScreen, addTemplate, el, div, clear } from "../../screens/default.js";
 import { waitForKey, type } from "../../util/io.js";
 
 async function typeLoading(text, options = { loadString: 3 }, container) {

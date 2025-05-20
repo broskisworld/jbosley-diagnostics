@@ -2,7 +2,7 @@
 import { typeSound } from "../sound/index.js";
 import say from "./speak.js";
 import pause from "./pause.js";
-import { loadTemplates } from "./screens.js";
+import { loadTemplates } from "../screens/default.js";
 
 // Command history
 let prev = getHistory();

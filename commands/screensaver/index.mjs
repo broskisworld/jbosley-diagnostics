@@ -1,5 +1,5 @@
 // CREDITS: https://codepen.io/jwanko/pen/MKjyoY
-import { clear, el, getScreen } from "../../util/screens.js";
+import { clear, el, getScreen } from "../../screens/default.js";
 import { waitForKey } from "../../util/io.js";
 
 const requestAnimFrame = window.requestAnimationFrame;

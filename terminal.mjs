@@ -1,6 +1,6 @@
 
 import { type } from "./util/io.js";
-import { toggleFullscreen } from "./util/screens.js";
+import { toggleFullscreen } from "./screens/default.js";
 import { registerHandlers } from "./util/ui.mjs";
 import { on } from "./util/power.js";
 
@@ -41,7 +41,7 @@ async function run(command, debug) {
 	}
 
 	// After the command is finished, show the main terminal
-	const { main } = await import("./util/screens.js");
+	const { main } = await import("./screens/default.js");
 	main();
 }
 

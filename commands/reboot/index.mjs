@@ -1,4 +1,4 @@
-import { boot } from "../../util/screens.js";
+import { boot } from "../../screens/default.js";
 
 const output = "Okay ;_;";
 
