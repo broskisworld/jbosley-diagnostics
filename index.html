@@ -65,76 +65,11 @@
 	</head>
 
 	<body class="theme-green">
-		<div id="monitor" class="off">
-			<div id="screen">
-				<div id="crt">
-					<div class="scanline"></div>
-					<div class="terminal"></div>
-				</div>
+		<div id="monitor" class="on">
+			<div id="crt">
+				<div class="scanline"></div>
+				<div class="terminal"></div>
 			</div>
-
-			<div id="slider">
-				<label class="switch">
-					<input type="checkbox" />
-					<span class="slider"></span>
-				</label>
-			</div>
-
-			<!-- <div id="controls">
-				<div id="sticky" class="post-it">
-					Admin<br />only
-				</div>
-
-				<div id="themes">
-					<button
-						id="theme-red"
-						class="theme"
-					></button>
-					<button
-						id="theme-green"
-						class="theme active"
-					></button>
-					<button
-						id="theme-blue"
-						class="theme"
-					></button>
-				</div>
-
-				<div id="volume">
-					<span>min</span>
-
-					<div id="dial-container">
-						<x-dial
-							id="dial"
-							min="0"
-							max="0.75"
-							value="0"
-							svgsymbolid="circle-with-dot"
-						>
-						</x-dial>
-					</div>
-					<span>max</span>
-				</div>
-
-				<div id="power">
-					<button id="fullscreen">
-						⛶
-					</button>
-					<label class="rocker rocker-small">
-						<input
-							id="switch"
-							type="checkbox"
-							checked
-						/>
-						<span class="switch-left"
-							>O</span
-						>
-						<span class="switch-right"
-							>I</span
-						>
-					</label>
-				</div>
-			</div>-->
 		</div>
 
 		<script src="./terminal.mjs" type="module"></script>

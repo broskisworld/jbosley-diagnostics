@@ -227,7 +227,6 @@ export function moveCaretToEnd(el) {
  **/
 export async function input(pw) {
 	return new Promise((resolve) => {
-		console.log("Input promise")
 		// This handles all user input
 		const onKeyDown = (event) => {
 			typeSound();
