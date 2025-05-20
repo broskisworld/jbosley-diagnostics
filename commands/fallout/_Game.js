@@ -1,7 +1,7 @@
 import { addTemplate, el, getScreen } from "../../screens/default.js";
 import { type } from "../../util/io.js";
 import { typeSound } from "../../sound/index.js";
-import { rnd, generateText, nextHex } from './util.mjs';
+import { rnd, generateText, nextHex } from './util.js';
 
 const MAX_LIVES = 4;
 const ROWS = 2 * 17; // Rows in the cypher text

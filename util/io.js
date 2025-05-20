@@ -343,7 +343,7 @@ export async function parse(input) {
 
 	// Try to import the command function
 	try {
-		module = await import(`../commands/${command}/index.mjs`);
+		module = await import(`../commands/${command}/index.js`);
 	} catch (e) {
 		console.error(e);
 		// Kinda abusing TypeError to check if the import failed

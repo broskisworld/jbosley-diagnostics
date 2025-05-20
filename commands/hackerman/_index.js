@@ -11,7 +11,7 @@ const TYPED_CHARS = 10;
 
 async function hackerman() {
 	// Fetch the source code of this file as text :D
-	let source = await fetch("commands/hackerman/index.mjs").then(res => res.text());
+	let source = await fetch("commands/hackerman/index.js").then(res => res.text());
 
 	return new Promise(resolve => {
 		clear();

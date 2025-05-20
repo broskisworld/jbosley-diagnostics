@@ -3,7 +3,7 @@
 // - http://aramor.epizy.com/fallout-terminal/password?diff=1
 import { getScreen, clear } from "../../screens/default.js";
 import { type } from "../../util/io.js";
-import Game from './Game.mjs';
+import Game from './Game.js';
 import pause from "../../util/pause.js";
 
 // Fast config for the typer

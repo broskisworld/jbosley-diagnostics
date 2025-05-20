@@ -5,7 +5,7 @@ import say from "../../util/speak.js";
 import alert from "../../util/alert.js";
 import pause from "../../util/pause.js";
 
-import Game from './game.mjs';
+import Game from './game.js';
 
 const output = [
 	"Loading...",

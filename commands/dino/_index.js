@@ -1,6 +1,6 @@
 import alert from "../../util/alert.js";
 import { getScreen, clear, div, el } from "../../screens/default.js";
-import Game from './game.mjs';
+import Game from './game.js';
 
 function dino() {
 	clear();
