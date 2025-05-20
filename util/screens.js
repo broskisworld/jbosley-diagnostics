@@ -10,33 +10,33 @@ const PW = "admin";
 export async function boot() {
 	clear();
 
-	await type("Welcome to ECMA industries(TM) terminal", {
-		initialWait: 3000
-	});
+	// await type("Welcome to ECMA industries(TM) terminal", {
+	// 	initialWait: 3000
+	// });
 
-	await type(["> SET TERMINAL/BOOT", "Loading........................"], {
-		lineWait: 1000
-	});
-	await type(
-		[
-			".....",
-			"Please wait........",
-			"..........",
-			"...",
-			".",
-			".",
-			".",
-			".",
-			"."
-		],
-		{ lineWait: 250 }
-	);
+	// await type(["> SET TERMINAL/BOOT", "Loading........................"], {
+	// 	lineWait: 1000
+	// });
+	// await type(
+	// 	[
+	// 		".....",
+	// 		"Please wait........",
+	// 		"..........",
+	// 		"...",
+	// 		".",
+	// 		".",
+	// 		".",
+	// 		".",
+	// 		"."
+	// 	],
+	// 	{ lineWait: 250 }
+	// );
 
-	await type(["OK.", " "]);
+	await type(["LOADING.", " "]);
 
-	await type(["> SET TERMINAL/LOGON", "USER AUTHENTICATION CHECK"], {
+	await type(["> SYSTEM DIAGNOSTICS"], {
 		lineWait: 1000,
-		finalWait: 3000
+		finalWait: 2000
 	});
 
 	await pause();

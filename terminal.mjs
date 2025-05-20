@@ -13,6 +13,7 @@ async function onLoad() {
 
 	// Set up click event handlers for UI buttons
 	on();
+	registerHandlers();
 
 	if(fullscreen) {
 		toggleFullscreen(true);
